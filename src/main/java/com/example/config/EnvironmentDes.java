@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Data
-public class Environment {
+public class EnvironmentDes {
     @Value("${environment}")
     private String environment;
 }
