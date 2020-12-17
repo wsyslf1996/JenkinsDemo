@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: JenkinsDemo
+  profiles:
+    active: dev
+server:
+  port: 10086
+
