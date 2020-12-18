@@ -16,6 +16,5 @@ public class HelloWorldController {
     @ResponseBody
     public String helloWorld(){
         return "Hi, this is " + environmentDes.getEnvironment();
-//        return "Hello, World!";
     }
 }
